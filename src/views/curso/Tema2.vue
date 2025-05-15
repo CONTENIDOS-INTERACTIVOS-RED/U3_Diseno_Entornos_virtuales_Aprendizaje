@@ -408,7 +408,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Herramientas y analítica para la mejora continua
             p.mb-4(data-aos="fade-right") Herramientas y analítica para la mejora continua, donde se aborda el papel de la analítica del aprendizaje y el uso de herramientas digitales para fortalecer la calidad educativa. 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.docx')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -478,7 +478,7 @@ export default {
   data() {
     return {
       cuestionario: {
-        tema: 'Herramientas colaborativas para la construcción de paz',
+        tema: 'DISEÑO DE ENTORNOS VIRTUALES DE APRENDIZAJE',
         titulo: 'Ponte a prueba',
         introduccion:
           'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
@@ -487,28 +487,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes conceptos se refiere a la interacción en tiempo real dentro de un entorno virtual de aprendizaje?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
+                texto: 'Evaluación formativa',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Sincronía',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Accesibilidad',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Asincronía',
                 esCorrecta: false,
               },
             ],
@@ -518,28 +518,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Qué herramienta permite crear contenidos digitales interactivos de forma visual y dinámica?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
+                texto: 'Moodle',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
+                texto: 'Genially',
                 esCorrecta: true,
               },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Socrative',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Google Meet',
                 esCorrecta: false,
               },
             ],
@@ -549,28 +549,29 @@ export default {
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál es la principal función de una rúbrica en el contexto educativo?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Diseñar actividades lúdicas',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
+                texto: 'Crear contenido multimedia',
                 esCorrecta: false,
               },
               {
+                id: 'c',
+                texto:
+                  'Evaluar con criterios claros el desempeño del estudiante',
+                esCorrecta: true,
+              },
+              {
                 id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
+                texto: 'Administrar la plataforma virtual',
                 esCorrecta: false,
               },
             ],
@@ -579,28 +580,30 @@ export default {
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Qué característica distingue a la evaluación formativa de la evaluación sumativa?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
+                texto:
+                  'Se aplica durante el proceso de aprendizaje para retroalimentar',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Se utiliza exclusivamente al finalizar el curso',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
+                texto: 'Solo mide conocimientos memorísticos',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'No permite ajustes pedagógicos',
                 esCorrecta: false,
               },
             ],
@@ -610,28 +613,28 @@ export default {
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Qué plataforma LMS es de código abierto y ampliamente usada en instituciones educativas?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
+                texto: 'Moodle ',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Canvas',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
+                texto: 'Blackboard',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'H5P',
                 esCorrecta: false,
               },
             ],
