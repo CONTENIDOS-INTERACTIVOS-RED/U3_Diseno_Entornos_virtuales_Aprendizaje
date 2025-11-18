@@ -254,7 +254,7 @@
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Criterios de alineación entre objetivos, actividades e instrumentos evaluativos
             p.mb-4(data-aos="fade-right") Criterios de alineación entre objetivos, actividades e instrumentos evaluativos, donde se aborda la importancia de asegurar coherencia en el diseño instruccional.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
